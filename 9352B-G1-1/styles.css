@@ -150,3 +150,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	padding: 10px;
 	margin: 10px;
 }
+
+div.foot{
+	background-color: white;
+	padding: 50px;
+
+}
