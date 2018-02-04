@@ -63,6 +63,14 @@ nav ul{
 .main-navigation .logo{
 	padding-left: 350px;
 }
+
+#main input:focus {
+        border: 1px solid #FF4F4F;
+}
+
+
+
+
 /* Content text/paragraphps */
 .intro_content{
 	display:grid;
