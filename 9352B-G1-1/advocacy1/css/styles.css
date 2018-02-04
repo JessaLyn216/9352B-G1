@@ -78,7 +78,7 @@ ul.topnav li.left {float: left;}
     }
 }
     
-    section.body{
+    .subBody{
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 5%;
@@ -164,7 +164,7 @@ blockquote p {
     color: #EF4836;
 }
     
-    .slides {
+    .slider {
     padding: 0;
     width: 900px;
     height: 500px;
@@ -174,9 +174,9 @@ blockquote p {
        
 }
 
-.slides input { display: none; }
+.slider input { display: none; }
 
-.slide-container { display: block; }
+.slide-continer { display: block; }
 
 .slide {
     top: 0;
@@ -223,7 +223,7 @@ blockquote p {
 
 .nav .next { right: 0; }
 
-input:checked + .slide-container  .slide {
+input:checked + .slide-continer  .slide {
     opacity: 1;
 
     transform: scale(1);
@@ -231,7 +231,7 @@ input:checked + .slide-container  .slide {
     transition: opacity 1s ease-in-out;
 }
 
-input:checked + .slide-container .nav label { display: block; }
+input:checked + .slide-continer .nav label { display: block; }
 
 .nav-dots {
 	width: 100%;
@@ -310,7 +310,7 @@ input {
   width: 100%;
   overflow: hidden;
 }
-article img {
+.imageholder img {
   width: 100%;
     height: 60%;
 }
@@ -318,7 +318,7 @@ article img {
   width: 500%;
   line-height: 0;
 }
-#slides article {
+#slides .imageholder {
   width: 20%;
   float: left;
 }
@@ -454,11 +454,11 @@ article img {
   -o-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
 }
-#slide1:checked ~ #slides article:nth-child(1) .caption,
-#slide2:checked ~ #slides article:nth-child(2) .caption,
-#slide3:checked ~ #slides article:nth-child(3) .caption,
-#slide4:checked ~ #slides article:nth-child(4) .caption,
-#slide5:checked ~ #slides article:nth-child(5) .caption {
+#slide1:checked ~ #slides .imageholder:nth-child(1) .caption,
+#slide2:checked ~ #slides .imageholder:nth-child(2) .caption,
+#slide3:checked ~ #slides .imageholder:nth-child(3) .caption,
+#slide4:checked ~ #slides .imageholder:nth-child(4) .caption,
+#slide5:checked ~ #slides .imageholder:nth-child(5) .caption {
   opacity: 1;
   -webkit-transition: all 1s ease-out 0.6s;
   -moz-transition: all 1s ease-out 0.6s;
