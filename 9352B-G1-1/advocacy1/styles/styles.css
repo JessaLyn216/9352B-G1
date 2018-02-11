@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Century Gothic, serif;
+    font-family: 'Century Gothic', serif;
     font-size: 14px;
     color: #333333;
 }
@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-    font-family: Flamante Cairo, serif;
+    font-family: 'Flamante Cairo', serif;
     letter-spacing: 3px;
     font-size: 15px;
     text-align: center;
@@ -21,7 +21,7 @@ h3 {
 }
 
 h4 {
-    font-family: Coyote SemiBold DEMO, sans-serif;
+    font-family: 'Coyote SemiBold DEMO', sans-serif;
     letter-spacing: 2px;
     color: #1a1a1a;
 }
@@ -49,7 +49,7 @@ ul.topnav {
 
 ul.topnav li {
     float: right;
-    font-family: Gauge Heavy, sans-serif;
+    font-family: 'Gauge Heavy', sans-serif;
     font-size: 13px;
 }
 
@@ -77,7 +77,7 @@ ul.topnav li a.active {
 
 ul.topnav li.left {
     float: left;
-    font-family: Dry Brush;
+    font-family: 'Dry Brush';
     font-size: 18px;
     padding-left: 20px;
     color: aquamarine;
@@ -156,7 +156,7 @@ blockquote {
 
 blockquote:after {
 	color:#ccc;
-	font-family: Source Sans Pro;
+	font-family: 'Source Sans Pro';
 	content: open-quote;
 	font-size:80px;
 	position:absolute;
@@ -172,7 +172,7 @@ blockquote:after {
 
 blockquote p {
 	padding:20px;
-    font-family: Amazing Kids;
+    font-family: 'Amazing Kids';
     letter-spacing: 2px;
 }
 
@@ -336,8 +336,6 @@ input {
 #slide3:checked ~ #commands label:nth-child(4),
 #slide4:checked ~ #commands label:nth-child(5),
 #slide5:checked ~ #commands label:nth-child(1) {
-  background: src="next.png"
-    no-repeat;
   float: right;
   margin: 0 12px 0 0;
   display: block;
@@ -348,8 +346,6 @@ input {
 #slide3:checked ~ #commands label:nth-child(2),
 #slide4:checked ~ #commands label:nth-child(3),
 #slide5:checked ~ #commands label:nth-child(4) {
-  background: src="previous.png"
-    no-repeat;
   float: left;
   margin: 0 0 0 -6px;
   display: block;
@@ -526,7 +522,7 @@ input {
 }
 
 @font-face {
-    font-family: Flamante Cairo;
+    font-family: 'Flamante Cairo';
     src: url(./fonts/hinted-FlamanteCairo.woff2) format(woff2),
         url(./fonts/hinted-FlamanteCairo.woff) format(woff),
         url(./fonts/hinted-FlamanteCairo.ttf) format(truetype);
@@ -553,7 +549,7 @@ input {
 }
 
 @font-face {
-    font-family: Dry Brush;
+    font-family: 'Dry Brush';
     src: url(./fonts/hinted-DryBrush.woff2) format(woff2),
         url(./fonts/hinted-DryBrush.woff) format(woff),
         url(./fonts/hinted-DryBrush.ttf) format(truetype);
@@ -589,7 +585,7 @@ input {
 }
 
 @font-face {
-    font-family: Century Gothic;
+    font-family: 'Century Gothic';
     src: url(./fonts/hinted-CenturyGothic-BoldItalic.woff2) format(woff2),
         url(./fonts/hinted-CenturyGothic-BoldItalic.woff) format(woff),
         url(./fonts/hinted-CenturyGothic-BoldItalic.ttf) format(truetype);
@@ -598,7 +594,7 @@ input {
 }
 
 @font-face {
-    font-family: Flamante Cairo;
+    font-family: 'Flamante Cairo';
     src: url(./fonts/hinted-FlamanteCairoBold.woff2) format(woff2),
         url(./fonts/hinted-FlamanteCairoBold.woff) format(woff),
         url(./fonts/hinted-FlamanteCairoBold.ttf) format(truetype);
@@ -607,7 +603,7 @@ input {
 }
 
 @font-face {
-    font-family: Coyote SemiBold DEMO;
+    font-family: 'Coyote SemiBold DEMO';
     src: url(./fonts/hinted-Coyote-SemiBoldDEMO.woff2) format(woff2),
         url(./fonts/hinted-Coyote-SemiBoldDEMO.woff) format(woff),
         url(./fonts/hinted-Coyote-SemiBoldDEMO.ttf) format(truetype);
@@ -616,7 +612,7 @@ input {
 }
 
 @font-face {
-    font-family: Century Gothic;
+    font-family: 'Century Gothic';
     src: url(./fonts/hinted-CenturyGothic-Italic.woff2) format(woff2),
         url(./fonts/hinted-CenturyGothic-Italic.woff) format(woff),
         url(./fonts/hinted-CenturyGothic-Italic.ttf) format(truetype);
@@ -625,7 +621,7 @@ input {
 }
 
 @font-face {
-    font-family: Amazing Kids;
+    font-family: 'Amazing Kids';
     src: url(./fonts/hinted-AmazingKids.woff2) format(woff2),
         url(./fonts/hinted-AmazingKids.woff) format(woff),
         url(./fonts/hinted-AmazingKids.ttf) format(truetype);
@@ -634,7 +630,7 @@ input {
 }
 
 @font-face {
-    font-family: Century Gothic;
+    font-family: 'Century Gothic';
     src: url(./fonts/hinted-CenturyGothic-Bold.woff2) format(woff2),
         url(./fonts/hinted-CenturyGothic-Bold.woff) format(woff),
         url(./fonts/hinted-CenturyGothic-Bold.ttf) format(truetype);
@@ -652,7 +648,7 @@ input {
 }
 
 @font-face {
-    font-family: Century Gothic;
+    font-family: 'Century Gothic';
     src: url(./fonts/hinted-CenturyGothic.woff2) format(woff2),
         url(./fonts/hinted-CenturyGothic.woff) format(woff),
         url(./fonts/hinted-CenturyGothic.ttf) format(truetype);
@@ -661,7 +657,7 @@ input {
 }
 
 @font-face {
-    font-family: Geometos;
+    font-family: 'Geometos';
     src: url(./fonts/hinted-Geometos.woff2) format(woff2),
         url(./fonts/hinted-Geometos.woff) format(woff),
         url(./fonts/hinted-Geometos.ttf) format(truetype);
@@ -670,7 +666,7 @@ input {
 }
 
 @font-face {
-    font-family: Coyote SemiBold DEMO;
+    font-family: 'Coyote SemiBold DEMO';
     src: url(./fonts/hinted-Coyote-SemiBoldDEMO.woff2) format(woff2),
         url(./fonts/hinted-Coyote-SemiBoldDEMO.woff) format(woff),
         url(./fonts/hinted-Coyote-SemiBoldDEMO.ttf) format(truetype);
